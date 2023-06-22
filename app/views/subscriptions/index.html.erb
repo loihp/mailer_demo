@@ -1,0 +1,7 @@
+<h1>hello</h1>
+<%= form_for Subscription.new do |f| %>
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+  <%= f.submit "Subscribe" %>
+
+<% end %>
